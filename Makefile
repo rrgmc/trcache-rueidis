@@ -1,6 +1,6 @@
 .PHONY: tools
 tools:
-	go install github.com/RangelReale/trcache/cmd/troptgen@v0.5.1
+	go install github.com/RangelReale/trcache/cmd/troptgen
 
 .PHONY: gen
 gen: tools
