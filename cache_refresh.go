@@ -19,12 +19,12 @@ func NewRefresh[K comparable, V any, RD any](redis rueidis.Client,
 	options ...trcache.RootOption) (*RefreshCache[K, V, RD], error) {
 	checker := trcache.NewOptionChecker(options)
 
-	c, err := New[K, V](redis, trcache.AppendRootOptionsChecker(checker, options)...)
+	c, err := New[K, V](redis, trcache.ForwardRootOptionsChecker(checker)...)
 	if err != nil {
 		return nil, err
 	}
 
-	helper, err := refresh.NewHelper[K, V, RD](trcache.AppendRootOptionsChecker(checker, options)...)
+	helper, err := refresh.NewHelper[K, V, RD](trcache.ForwardRootOptionsChecker(checker)...)
 	if err != nil {
 		return nil, err
 	}
