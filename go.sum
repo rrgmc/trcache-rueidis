@@ -1,9 +1,9 @@
-github.com/RangelReale/trcache v0.8.3 h1:8GC+7h/odlFySgUguLqlqk/fvYpdt6M4WeH1rFasRU4=
-github.com/RangelReale/trcache v0.8.3/go.mod h1:Xxc+cZbp6JjELRi7Q+Hy1mlhHdpVkJJin1y/mQu/9dg=
-github.com/RangelReale/trcache/cmd/troptgen v0.8.0 h1:VKxtPXV3q/88srlpTxoMmBQwfLvipzYA3i3DeZxKMFg=
-github.com/RangelReale/trcache/cmd/troptgen v0.8.0/go.mod h1:/OFLL/W5tXYmXCpOjHQBPhV0EotvPnHZPpMCUyZlsqU=
-github.com/RangelReale/trcache/mocks v0.8.0 h1:xFz6qfyHIxHw9cVlsZq2zU/ZqHuFzFer+hhiQ4jdjQs=
-github.com/RangelReale/trcache/mocks v0.8.0/go.mod h1:jOCWaLI1UacmPIhXRT6PGBp8e72P0RZvSPLbq77d1ag=
+github.com/RangelReale/trcache v0.9.0 h1:kUuvyEzdAcr6vN3yIOhOLrjlY2lZmpdg63hthgL64B4=
+github.com/RangelReale/trcache v0.9.0/go.mod h1:Xxc+cZbp6JjELRi7Q+Hy1mlhHdpVkJJin1y/mQu/9dg=
+github.com/RangelReale/trcache/cmd/troptgen v0.9.0 h1:IC3i9AdGIYHZt5qA3vycc6bZVmnZW/NgRGkDL4Y3sQI=
+github.com/RangelReale/trcache/cmd/troptgen v0.9.0/go.mod h1:/OFLL/W5tXYmXCpOjHQBPhV0EotvPnHZPpMCUyZlsqU=
+github.com/RangelReale/trcache/mocks v0.9.0 h1:5fPo3F7IN7MLejAqxLHYkujv0M0MiW9nNo8v+gSTgIU=
+github.com/RangelReale/trcache/mocks v0.9.0/go.mod h1:cVV5+fvFSVOGab9vUuVAgTPHPgV3qtvBPf/iZfrstwg=
 github.com/dave/jennifer v1.6.0 h1:MQ/6emI2xM7wt0tJzJzyUik2Q3Tcn2eE0vtYgh4GPVI=
 github.com/dave/jennifer v1.6.0/go.mod h1:AxTG893FiZKqxy3FP1kL80VMshSMuz2G+EgvszgGRnk=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
