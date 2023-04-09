@@ -3,9 +3,8 @@ module github.com/RangelReale/trcache-rueidis
 go 1.20
 
 require (
-	github.com/RangelReale/trcache v0.10.0
-	github.com/RangelReale/trcache/cmd/troptgen v0.10.0
-	github.com/RangelReale/trcache/mocks v0.10.0
+	github.com/RangelReale/trcache v0.11.0
+	github.com/RangelReale/trcache/cmd/troptgen v0.11.0
 	github.com/golang/mock v1.6.0
 	github.com/rueian/rueidis v0.0.97
 	github.com/stretchr/testify v1.8.2
