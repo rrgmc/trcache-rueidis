@@ -2,7 +2,6 @@ package trcache_rueidis
 
 import (
 	"context"
-	"errors"
 	"fmt"
 
 	"github.com/RangelReale/trcache"
@@ -30,7 +29,7 @@ func New[K comparable, V any](redis rueidis.Client, options ...trcache.RootOptio
 		return nil, optErr.Err()
 	}
 	if ret.options.valueCodec == nil {
-		return nil, errors.New("value codec is required")
+		ret.options.valueCodec = codec.NewGOBCodec[V]()
 	}
 	if ret.options.keyCodec == nil {
 		ret.options.keyCodec = codec.NewStringKeyCodec[K]()
@@ -69,7 +68,7 @@ func (c *Cache[K, V]) Get(ctx context.Context, key K, options ...trcache.GetOpti
 		return empty, err
 	}
 
-	dec, err := c.options.valueCodec.Unmarshal(ctx, value)
+	dec, err := c.options.valueCodec.Decode(ctx, value)
 	if err != nil {
 		var empty V
 		return empty, trcache.CodecError{err}
@@ -95,7 +94,7 @@ func (c *Cache[K, V]) Set(ctx context.Context, key K, value V, options ...trcach
 		return optErr.Err()
 	}
 
-	enc, err := c.options.valueCodec.Marshal(ctx, value)
+	enc, err := c.options.valueCodec.Encode(ctx, value)
 	if err != nil {
 		return trcache.CodecError{err}
 	}
