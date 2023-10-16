@@ -9,7 +9,7 @@ import (
 
 func WithDefaultClientSideDuration[K comparable, V any](duration time.Duration) trcache.RootOption {
 	const optionName = "github.com/rrgmc/trcache-rueidis/options.DefaultClientSideDuration"
-	const optionHash = uint64(0xa0dfb3eca67e6cf9)
+	const optionHash = uint64(0x489a2dc94a6654a4)
 	return trcache.RootOptionFunc(func(o any) bool {
 		switch opt := o.(type) {
 		case options[K, V]:
@@ -21,7 +21,7 @@ func WithDefaultClientSideDuration[K comparable, V any](duration time.Duration) 
 }
 func WithDefaultDuration[K comparable, V any](duration time.Duration) trcache.RootOption {
 	const optionName = "github.com/rrgmc/trcache-rueidis/options.DefaultDuration"
-	const optionHash = uint64(0xd15a576d42aa4dad)
+	const optionHash = uint64(0x579e5fa1ad8c6410)
 	return trcache.RootOptionFunc(func(o any) bool {
 		switch opt := o.(type) {
 		case options[K, V]:
@@ -33,7 +33,7 @@ func WithDefaultDuration[K comparable, V any](duration time.Duration) trcache.Ro
 }
 func WithKeyCodec[K comparable, V any](keyCodec trcache.KeyCodec[K]) trcache.RootOption {
 	const optionName = "github.com/rrgmc/trcache-rueidis/options.KeyCodec"
-	const optionHash = uint64(0x1f5587bc972a6a57)
+	const optionHash = uint64(0xc7cfddb3c3ce9420)
 	return trcache.RootOptionFunc(func(o any) bool {
 		switch opt := o.(type) {
 		case options[K, V]:
@@ -45,7 +45,7 @@ func WithKeyCodec[K comparable, V any](keyCodec trcache.KeyCodec[K]) trcache.Roo
 }
 func WithRedisDelFunc[K comparable, V any](redisDelFunc RedisDelFunc[K, V]) trcache.RootOption {
 	const optionName = "github.com/rrgmc/trcache-rueidis/options.RedisDelFunc"
-	const optionHash = uint64(0x1f564119f8ee03d4)
+	const optionHash = uint64(0xbaf42861c1106cab)
 	return trcache.RootOptionFunc(func(o any) bool {
 		switch opt := o.(type) {
 		case options[K, V]:
@@ -57,7 +57,7 @@ func WithRedisDelFunc[K comparable, V any](redisDelFunc RedisDelFunc[K, V]) trca
 }
 func WithRedisGetFunc[K comparable, V any](redisGetFunc RedisGetFunc[K, V]) trcache.RootOption {
 	const optionName = "github.com/rrgmc/trcache-rueidis/options.RedisGetFunc"
-	const optionHash = uint64(0x69ed94d779c45687)
+	const optionHash = uint64(0xc028559f5d355778)
 	return trcache.RootOptionFunc(func(o any) bool {
 		switch opt := o.(type) {
 		case options[K, V]:
@@ -69,7 +69,7 @@ func WithRedisGetFunc[K comparable, V any](redisGetFunc RedisGetFunc[K, V]) trca
 }
 func WithRedisSetFunc[K comparable, V any](redisSetFunc RedisSetFunc[K, V]) trcache.RootOption {
 	const optionName = "github.com/rrgmc/trcache-rueidis/options.RedisSetFunc"
-	const optionHash = uint64(0xa484750639da0993)
+	const optionHash = uint64(0xc335e08e81dd735c)
 	return trcache.RootOptionFunc(func(o any) bool {
 		switch opt := o.(type) {
 		case options[K, V]:
@@ -81,7 +81,7 @@ func WithRedisSetFunc[K comparable, V any](redisSetFunc RedisSetFunc[K, V]) trca
 }
 func WithValidator[K comparable, V any](validator trcache.Validator[V]) trcache.RootOption {
 	const optionName = "github.com/rrgmc/trcache-rueidis/options.Validator"
-	const optionHash = uint64(0xfa156d885e4a4f5c)
+	const optionHash = uint64(0xb87de37bdcab5a69)
 	return trcache.RootOptionFunc(func(o any) bool {
 		switch opt := o.(type) {
 		case options[K, V]:
@@ -93,7 +93,7 @@ func WithValidator[K comparable, V any](validator trcache.Validator[V]) trcache.
 }
 func WithValueCodec[K comparable, V any](valueCodec trcache.Codec[V]) trcache.RootOption {
 	const optionName = "github.com/rrgmc/trcache-rueidis/options.ValueCodec"
-	const optionHash = uint64(0x9cbbdca355db186d)
+	const optionHash = uint64(0x60e10572ffe632fa)
 	return trcache.RootOptionFunc(func(o any) bool {
 		switch opt := o.(type) {
 		case options[K, V]:
@@ -105,7 +105,7 @@ func WithValueCodec[K comparable, V any](valueCodec trcache.Codec[V]) trcache.Ro
 }
 func WithGetClientSideDuration[K comparable, V any](duration time.Duration) trcache.GetOption {
 	const optionName = "github.com/rrgmc/trcache-rueidis/getOptions.ClientSideDuration"
-	const optionHash = uint64(0xa52219d712468772)
+	const optionHash = uint64(0xe1d62744f74f7407)
 	return trcache.GetOptionFunc(func(o any) bool {
 		switch opt := o.(type) {
 		case getOptions[K, V]:
@@ -117,7 +117,7 @@ func WithGetClientSideDuration[K comparable, V any](duration time.Duration) trca
 }
 func WithGetCustomParams[K comparable, V any](customParams interface{}) trcache.GetOption {
 	const optionName = "github.com/rrgmc/trcache-rueidis/getOptions.CustomParams"
-	const optionHash = uint64(0xec892b258f288a85)
+	const optionHash = uint64(0xd4c41ff523a8fc)
 	return trcache.GetOptionFunc(func(o any) bool {
 		switch opt := o.(type) {
 		case getOptions[K, V]:
@@ -129,7 +129,7 @@ func WithGetCustomParams[K comparable, V any](customParams interface{}) trcache.
 }
 func WithGetRedisGetFunc[K comparable, V any](redisGetFunc RedisGetFunc[K, V]) trcache.GetOption {
 	const optionName = "github.com/rrgmc/trcache-rueidis/getOptions.RedisGetFunc"
-	const optionHash = uint64(0x6d62262658e666f3)
+	const optionHash = uint64(0x4f44238560ff82e2)
 	return trcache.GetOptionFunc(func(o any) bool {
 		switch opt := o.(type) {
 		case getOptions[K, V]:
@@ -141,7 +141,7 @@ func WithGetRedisGetFunc[K comparable, V any](redisGetFunc RedisGetFunc[K, V]) t
 }
 func WithSetCustomParams[K comparable, V any](customParams interface{}) trcache.SetOption {
 	const optionName = "github.com/rrgmc/trcache-rueidis/setOptions.CustomParams"
-	const optionHash = uint64(0x3fceea5eebedb4f1)
+	const optionHash = uint64(0x1cba6480dc9e4630)
 	return trcache.SetOptionFunc(func(o any) bool {
 		switch opt := o.(type) {
 		case setOptions[K, V]:
@@ -153,7 +153,7 @@ func WithSetCustomParams[K comparable, V any](customParams interface{}) trcache.
 }
 func WithSetRedisSetFunc[K comparable, V any](redisSetFunc RedisSetFunc[K, V]) trcache.SetOption {
 	const optionName = "github.com/rrgmc/trcache-rueidis/setOptions.RedisSetFunc"
-	const optionHash = uint64(0x9f236e7c161100d3)
+	const optionHash = uint64(0x7272ef0446723362)
 	return trcache.SetOptionFunc(func(o any) bool {
 		switch opt := o.(type) {
 		case setOptions[K, V]:
@@ -165,7 +165,7 @@ func WithSetRedisSetFunc[K comparable, V any](redisSetFunc RedisSetFunc[K, V]) t
 }
 func WithDeleteCustomParams[K comparable, V any](customParams interface{}) trcache.DeleteOption {
 	const optionName = "github.com/rrgmc/trcache-rueidis/deleteOptions.CustomParams"
-	const optionHash = uint64(0xd087ad7569e445f8)
+	const optionHash = uint64(0xea2924df77c19627)
 	return trcache.DeleteOptionFunc(func(o any) bool {
 		switch opt := o.(type) {
 		case deleteOptions[K, V]:
@@ -177,7 +177,7 @@ func WithDeleteCustomParams[K comparable, V any](customParams interface{}) trcac
 }
 func WithDeleteRedisDelFunc[K comparable, V any](redisDelFunc RedisDelFunc[K, V]) trcache.DeleteOption {
 	const optionName = "github.com/rrgmc/trcache-rueidis/deleteOptions.RedisDelFunc"
-	const optionHash = uint64(0xd5104f27b66ca2a5)
+	const optionHash = uint64(0x402823f3f1ac6622)
 	return trcache.DeleteOptionFunc(func(o any) bool {
 		switch opt := o.(type) {
 		case deleteOptions[K, V]:
