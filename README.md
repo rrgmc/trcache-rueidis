@@ -1,6 +1,6 @@
-# trcache rueidis [![GoDoc](https://godoc.org/github.com/RangelReale/trcache-rueidis?status.png)](https://godoc.org/github.com/RangelReale/trcache-rueidis)
+# trcache rueidis [![GoDoc](https://godoc.org/github.com/rrgmc/trcache-rueidis?status.png)](https://godoc.org/github.com/rrgmc/trcache-rueidis)
 
-This is a [trcache](https://github.com/RangelReale/trcache) wrapper for [rueidis](https://github.com/rueian/rueidis).
+This is a [trcache](https://github.com/rrgmc/trcache) wrapper for [rueidis](https://github.com/rueian/rueidis).
 
 ## Info
 
@@ -23,5 +23,5 @@ This is a [trcache](https://github.com/RangelReale/trcache) wrapper for [rueidis
 ## Installation
 
 ```shell
-go get github.com/RangelReale/trcache-rueidis
+go get github.com/rrgmc/trcache-rueidis
 ```

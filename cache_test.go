@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/RangelReale/trcache"
-	"github.com/RangelReale/trcache/codec"
-	"github.com/RangelReale/trcache/mocks"
 	"github.com/golang/mock/gomock"
+	"github.com/rrgmc/trcache"
+	"github.com/rrgmc/trcache/codec"
+	"github.com/rrgmc/trcache/mocks"
 	"github.com/rueian/rueidis/mock"
 	mock2 "github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"

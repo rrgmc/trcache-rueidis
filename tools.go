@@ -3,5 +3,5 @@
 package trcache_rueidis
 
 import (
-	_ "github.com/RangelReale/trcache/cmd/troptgen"
+	_ "github.com/rrgmc/trcache/cmd/troptgen"
 )

@@ -3,8 +3,8 @@ package trcache_rueidis
 import (
 	"context"
 
-	"github.com/RangelReale/trcache"
-	"github.com/RangelReale/trcache/refresh"
+	"github.com/rrgmc/trcache"
+	"github.com/rrgmc/trcache/refresh"
 	"github.com/rueian/rueidis"
 )
 

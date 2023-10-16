@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/RangelReale/trcache"
+	"github.com/rrgmc/trcache"
 	"github.com/rueian/rueidis"
 )
 
